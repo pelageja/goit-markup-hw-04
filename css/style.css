@@ -145,12 +145,28 @@ text-decoration: none;
 
 /* Герой*/
 /* Эффективные решения для вашего бизнеса */
- .hero {
+.overlay {
+   height: 600px;
+   max-width: 1600;
+   margin-left: auto;
+   margin-right:auto ;
+ background-image: linear-gradient
+ (rgba(196, 196, 196, 1),
+   rgba(47, 48, 58, 0.4));
+   background-image: url(../images/Img\ hero.jpg);  
+background-color: rgba(196, 196, 196, 1);
+   background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+}
+
+
+.hero {
 padding-bottom: 200px;
     padding-top: 200px;
     margin-top: 0;
     text-align: center;
-    background-color:var(--fond-dark-color);
+   
 }
 h1.hero-title {
     
@@ -170,6 +186,7 @@ h1.hero-title {
 .button-order {
     
     border-radius: 4px;
+border-color: #2196F3;
     padding: 10px 32px;
     display: inline-block;
     min-width: 200px;
@@ -209,6 +226,19 @@ ul.features {
     margin:0;
     letter-spacing: 0.03em;
      padding-left: 0;
+    }
+    .item::before {
+        display: block;
+        content: "";
+        height: 120px;
+        outline: 1px solid red;
+        background-image: url();
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-color: rgba(245, 244, 250, 1);
+border-radius: 4px;
+margin-bottom: 30px;
+   
     }
 .features .item {
     margin-right: 30px;
