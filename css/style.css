@@ -221,21 +221,24 @@ ul.features {
     letter-spacing: 0.03em;
     padding-left: 0;
 }
-
-    
-    .item::before {
-        display: block;
-        content: "";
+.icon-features-box { 
+    display: flex;
+    background-color: rgba(245, 244, 250, 1);
+        border-radius: 4px;
+        margin-bottom: 30px;
         height: 120px;
-        
-        background-image: url();
-        background-size: contain;
-        background-repeat: no-repeat;
-        background-color: rgba(245, 244, 250, 1);
-border-radius: 4px;
-margin-bottom: 30px;
-   
-    }
+
+align-items: center;
+justify-content: center;
+
+}
+
+
+
+
+
+
+
         .features .item {
             margin-right: 30px;
             margin-bottom: 0;
