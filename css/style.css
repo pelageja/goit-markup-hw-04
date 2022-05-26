@@ -221,19 +221,25 @@ ul.features {
     letter-spacing: 0.03em;
     padding-left: 0;
 }
+ 
+   
+
 .icon-features-box { 
     display: flex;
-    background-color: rgba(245, 244, 250, 1);
-        border-radius: 4px;
+    background-color:rgba(245, 244, 250, 1);
+        border-radius: 4px ;
         margin-bottom: 30px;
         height: 120px;
-
 align-items: center;
 justify-content: center;
 
 }
 
-
+.icon-features-box:hover.icon-features{
+    fill:rgba(33, 150, 243, 1);
+} 
+ 
+    
 
 
 
@@ -343,6 +349,24 @@ font-size: 16px;
 .name {
     padding-top:30px ;
     padding-bottom: 30px;
+}
+/*Постоянные клиенты*/
+.clients h2{
+    font-weight: 700;
+        font-size: 36px;
+        line-height: 1.17;
+    letter-spacing: 0.03em;
+    color:var(--main-text-color);
+    text-align: center;
+    margin-top: 94px;
+    margin-bottom: 50px;
+   
+    
+        
+    
+       
+      
+        
 }
 /*Подвал*/
 footer {
